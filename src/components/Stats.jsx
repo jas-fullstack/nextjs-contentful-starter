@@ -14,7 +14,7 @@ export const Stats = (props) => {
       <div className="mx-auto">
         <div className="mb-16">
           <h2 className="mb-4 text-4xl font-bold sm:text-5xl" data-sb-field-path="heading">
-            {props.heading}
+            custom heding will be here
           </h2>
           {props.body && <Markdown options={{ forceBlock: true }} className="sm:text-lg" data-sb-field-path="body">
             {props.body}
