@@ -25,7 +25,7 @@ export default async function ComposablePage({ params }) {
         {(page.sections || []).map((section, idx) => {
           const Component = componentMap[section.type];
           return <Component key={idx} {...section} />;
-        })}
+        })} 
       </div>
     );
   } catch (error) {
